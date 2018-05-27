@@ -1,0 +1,22 @@
+This repository contains a custom formbuilder which takes json data and generates a form based on the form configuration.
+
+Assumptions 
+============
+
+* All such frameworks which exist have been built based on the same principle.
+* If A new framework can be built from concepts then it could be done based on Wikimedia's OOUI framework. 
+* The reader who evaluates knows how to handle json files and can read basic javascript code.
+
+Problems Faced
+==============
+
+* Making a choice of the particular framework to extend to complete this task easily.
+* Defining new structures on existing frameworks which will be used to build the new UI form elements not defined by the schema in the framework.
+* Internet connectivity issues due to ceasure and recurrent crisis my region (scary gun shots! I had to migrate).
+
+Shortcuts Taken.
+================
+
+* To implement autocomplete dropdown and multi-select, selectize.js (https://selectize.github.io/selectize.js/) was used.
+* For the styling bootstrap was used.]
+* JQuery was used to facilitate handling the elements and manipulatting them in accordance with the data schema provided in the json.
