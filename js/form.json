@@ -1,0 +1,86 @@
+{
+	"method": "get",
+	"class": ["class-this class-that class-end"], 
+	"id": "elt_id", 
+	"schema": [
+		{
+			"elt": "input", 
+			"label": "Input number ",
+			"type": "number", 
+			"attribute": {"autocomplete": "true", "multiple": "false"},
+			"default": 12, 
+			"class": "form-control elt-class", 
+			"id": "textInput1"
+		}, 
+		{
+			"elt": "select", 
+			"label": "Select with multiple elements",
+			"attribute": {"multiple": "true"},
+			"default": "default-value", 
+			"class": "select-autocomplete elt-class", 
+			"id": "selectMultipleInput", 
+			"spacing": "form-check",
+			"options": {
+				"Digital Renter": "Digital Renter", 
+				"Makonjo": "Makonjo", 
+				"Njorku": "Njorku", 
+				"Maibeta": "Maibeta"
+			}
+		},
+		{
+			"elt": "select", 
+			"label": "Select with autocmplete feature",
+			"default": "default-value", 
+			"class": "select-autocomplete", 
+			"id": "selectAutocompleteInput", 
+			"spacing": "form-check",
+			"options": {
+				"Cameroon": "Cameroon", 
+				"Nigeria": "Nigeria", 
+				"Ghana": "Ghana", 
+				"Ethiopia": "Ethiopia"
+			}
+		}, 
+		{
+			"elt": "radio", 
+			"spacing": "form-check",
+			"label": "Radio button element",
+			"attribute": {"name": "name-of-radio"},
+			"default": "default-value", 
+			"class": "form-control elt-class", 
+			"id": "radioInput", 
+			"options": {
+				"footbal": "footbal", 
+				"handball": "handball", 
+				"table tenis": "table tenis", 
+				"judo": "judo"
+			}
+		}, {
+			"elt": "checkbox", 
+			"label": "Checkbox element",
+			"attribute": {"name": "name-of-checkbox"},
+			"default": "default-value", 
+			"class": "form-control elt-class", 
+			"id": "checkboxInput", 
+			"options": {
+				"Tom": "Tom", 
+				"Dick": "Dick", 
+				"Haryy": "Haryy", 
+				"Paul": "Paul"
+			}
+		}, {
+			"elt": "textarea", 
+			"label": "Textarea element",
+			"attribute": {"name": "textarea_field"},
+			"default": "This is the defualt text that will apear on the text area field", 
+			"class": "form-control elt-class", 
+			"id": "textareaInput"
+		}, {
+			"elt": "input",
+			"label": "",
+			"type": "submit", 
+			"class": "form-control elt-class process-form-data", 
+			"id": "btn-approve"
+		}
+	]
+}
